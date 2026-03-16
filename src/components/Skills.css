@@ -1,0 +1,114 @@
+.skills__tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.skill-tab {
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1.5px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.skill-tab:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.skill-tab--active {
+  background: rgba(124, 58, 237, 0.15);
+  border-color: var(--accent-primary);
+  color: var(--accent-secondary);
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.skill-card {
+  padding: 1.25rem;
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(124, 58, 237, 0.1);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-bottom: 0.1rem;
+}
+
+.skill-percent {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent-secondary);
+}
+
+.skill-bar {
+  height: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background: var(--gradient-1);
+  border-radius: 3px;
+  width: 0;
+  animation: fillBar 1s ease forwards 0.3s;
+}
+
+@keyframes fillBar {
+  to { width: var(--target-width); }
+}
+
+.skills__extra {
+  border-top: 1px solid var(--border);
+  padding-top: 2rem;
+}
+
+.extra-title {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.extra-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
