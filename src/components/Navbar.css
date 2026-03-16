@@ -78,7 +78,7 @@
 .nav-link:hover,
 .nav-link--active {
   color: var(--text-primary);
-  background: rgba(124, 58, 237, 0.1);
+  background: rgba(220, 38, 38, 0.1);
 }
 
 .nav-cta {

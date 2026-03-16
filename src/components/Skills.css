@@ -24,7 +24,7 @@
 }
 
 .skill-tab--active {
-  background: rgba(124, 58, 237, 0.15);
+  background: rgba(220, 38, 38, 0.15);
   border-color: var(--accent-primary);
   color: var(--accent-secondary);
 }
@@ -56,7 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(124, 58, 237, 0.1);
+  background: rgba(220, 38, 38, 0.1);
   border-radius: 10px;
   flex-shrink: 0;
 }
