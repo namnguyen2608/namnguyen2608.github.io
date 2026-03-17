@@ -17,7 +17,6 @@ const skills = {
   ],
   tools: [
     { name: 'Git & GitHub', level: 75, icon: '🔧' },
-    { name: 'IntelliJ IDEA', level: 85, icon: '🧠' },
     { name: 'VS Code', level: 80, icon: '📝' },
     { name: 'Laragon', level: 70, icon: '🐘' },
     { name: 'MySQL', level: 65, icon: '🗃️' },

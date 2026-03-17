@@ -22,13 +22,7 @@ export default function About() {
               Hi there! I'm <strong className="highlight">Nam Nguyen</strong>, a passionate developer who loves building software that makes a difference. I believe that behind great code lies great purpose.
             </p>
             <p>
-              My philosophy: <span className="highlight-quote">"Nothing is true, everything is permitted"</span> — meaning I don't limit myself to one technology or paradigm. I explore, learn, and build with whatever best solves the problem.
-            </p>
-            <p>
-              Currently working with <strong className="highlight">Java</strong> for desktop and backend applications, with experience in GUI development using <strong className="highlight">Java Swing</strong>. I'm always eager to learn new technologies and take on challenging projects.
-            </p>
-            <p>
-              When I'm not coding, I'm exploring new frameworks, reading about software architecture, or finding creative ways to improve my craft.
+              Currently working with <strong className="highlight">Java</strong> for desktop and backend applications, with experience in GUI development using <strong className="highlight"></strong>. I'm always eager to learn new technologies and take on challenging projects.
             </p>
 
             <div className="about__interests">
@@ -58,7 +52,7 @@ export default function About() {
                 <span className="code-filename">about.json</span>
               </div>
               <pre className="code-content">
-{`{
+                {`{
   "name": "Nguyen Nam",
   "role": "Developer",
   "location": "Vietnam 🇻🇳",
